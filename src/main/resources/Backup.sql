@@ -5,7 +5,7 @@ DECLARE @fileDate VARCHAR(20) -- used for file name
 
 
 -- specify database backup directory
-SET @path = 'C:\SQLBackups\' +path  
+SET @path = 'C:\SQLBackups\'
 
 
 -- specify filename format
