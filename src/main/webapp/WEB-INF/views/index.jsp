@@ -33,17 +33,22 @@
     <li><a href=""><i class="icon-question-sign"></i> <span>How it works</span></a> </li>
            <div class="widget-content notify-ui">
             <ul id="gritter-notify">
+           
+             <li><a title="" id="example" data-content="Add the following stored procedure to all applicable
+              test instances" data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">1</span> Add This Stored Procedure </a> </li>             
+            	
+            
               <li><a title="" id="example" data-content="Simply choose the SQL instance you want to backup
               and press the Backup button, enter the zip name on the popup and a .zip will be generated
-              containing all the non-system databases of that instance." data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">1</span> Backup any sql instance &nbsp&nbsp&nbsp</a> </li>             
+              containing all the non-system databases of that instance." data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">2</span> Backup any sql instance &nbsp&nbsp&nbsp</a> </li>             
             	
              
               <li><a title="" id="example" data-content="Completely nuke all non-system databases on a SQL instance, always
-              backup in step #1 before executing this functionality as it will be permanently lost." data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">2</span> Delete all sql databases &nbsp&nbsp&nbsp&nbsp</a> </li>             
+              backup in step #1 before executing this functionality as it will be permanently lost." data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">3</span> Delete all sql databases &nbsp&nbsp&nbsp&nbsp</a> </li>             
             	
               <li><a title="" id="example" data-content="Select the Restore option and choose the zip that you want to
               restore onto the instance. <b>note: </b> any file with the .zip extension on .1 C:/SQLBackup directory will be listed
-              " data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">3</span> Restore any sql instance &nbsp&nbsp&nbsp</a> </li>                       	         
+              " data-placement="right" data-toggle="popover" href="" data-original-title="<b>Information</b>" > <span class="label label-important">4</span> Restore any sql instance &nbsp&nbsp&nbsp</a> </li>                       	         
             </ul>
        
   </ul>
