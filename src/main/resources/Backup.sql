@@ -5,7 +5,7 @@ DECLARE @fileDate VARCHAR(20) -- used for file name
 
 
 -- specify database backup directory
-SET @path = 'C:\SQLBackups\' +path  
+SET @path = 'C:\SQLBackups\'
 
 
 -- specify filename format
@@ -24,7 +24,7 @@ FETCH NEXT FROM db_cursor INTO @name
 
 WHILE @@FETCH_STATUS = 0   
 BEGIN   
-       SET @fileName = @path + @name + '_' + @fileDate + '.BAK'  
+       SET @fileName = @path + @name + '_' + @fileDate + '.bak'  
        BACKUP DATABASE @name TO DISK = @fileName  
 
 
